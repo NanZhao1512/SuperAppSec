@@ -14,7 +14,7 @@
 - 小程序中提权漏洞整理：https://github.com/BESTICSP/Vulnerabilities-Related-to-Mini-Programs-Permissions
 
 #### 隐私泄露恶意小程序检测
-- ICSE'21-小程序污点分析检测**TaintMini**：https://github.com/OSUSecLab/TaintMini
+- ICSE'21-小程序污点分析检测**TaintMini**：https://github.com/OSUSecLab/TaintMini【已复现成功】
 - TIFS'24复旦-小程序违规开发行为检测工具**MiniAppSecurity**：https://github.com/seclab-fudan/MiniAppSecurity
 - 复旦-小程序隐私过度收集行为检测**SPOChecker**：https://github.com/ppflower/XPOScope
 - TDSC'23复旦-小程序中隐私泄露检测**MiniTracker**：https://github.com/flyboss/MiniTracker
