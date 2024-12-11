@@ -22,4 +22,4 @@
 ### 其他安全工具
 - ICSE'23-超级应用中不一致API检测工具**APIDiff**：https://github.com/OSUSecLab/APIDiff
 - CCS'24-跨站请求伪造分析工具**MiniCAT**: https://github.com/kee1ongz/MiniCAT
-- CCS'20-跨小程序伪造工具**CMRFScanner**：https://github.com/OSUSecLab/CMRFScanner
+- CCS'20-跨小程序伪造工具**CMRFScanner**：https://github.com/OSUSecLab/CMRFScanner 【已复现成功】
