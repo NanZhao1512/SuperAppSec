@@ -23,3 +23,9 @@
 - ICSE'23-超级应用中不一致API检测工具**APIDiff**：https://github.com/OSUSecLab/APIDiff
 - CCS'24-跨站请求伪造分析工具**MiniCAT**: https://github.com/kee1ongz/MiniCAT
 - CCS'20-跨小程序伪造工具**CMRFScanner**：https://github.com/OSUSecLab/CMRFScanner 【已复现成功】
+
+### 恶意软件检测工具
+
+- ExtAnalysis 浏览器插件安全检测工具： https://github.com/Tuhinshubhra/ExtAnalysis
+- 使用机器学习进行恶意软件分类：https://github.com/trucanh21/android-malware-detection-using-machine-learning
+- AndroPyTool从apk文件中提取静态和动态特征: https://github.com/alexMyG/AndroPyTool
