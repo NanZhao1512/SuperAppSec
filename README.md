@@ -17,7 +17,7 @@
 - ICSE'21-小程序污点分析检测**TaintMini**：https://github.com/OSUSecLab/TaintMini 【已复现成功】
 - TIFS'24复旦-小程序违规开发行为检测工具**MiniAppSecurity**：https://github.com/seclab-fudan/MiniAppSecurity
 - 复旦-小程序隐私过度收集行为检测**SPOChecker**：https://github.com/ppflower/XPOScope
-- TDSC'23复旦-小程序中隐私泄露检测**MiniTracker**：https://github.com/flyboss/MiniTracker
+- TDSC'23复旦-小程序中隐私泄露检测**MiniTracker**：https://github.com/flyboss/MiniTracker 【可以用[coddfuse-query](https://github.com/codefuse-ai/CodeFuse-Query/tree/main)生成函数调用图】
 
 ### 其他安全工具
 - ICSE'23-超级应用中不一致API检测工具**APIDiff**：https://github.com/OSUSecLab/APIDiff
