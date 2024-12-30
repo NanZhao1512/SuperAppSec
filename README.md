@@ -11,7 +11,7 @@
 
 - CCS'20小程序提权行为检测工具**Apiant**: https://sites.google.com/view/appinapp/ 【调通了前面的测试用例生成部分，后面的动态分析部分未调通】
 - ASE'24西交-小程序中滥用数据权限请求检测工具**MiniChecker**: https://github.com/xjtu-intsoft/MiniChecker 【可以用[coddfuse-query](https://github.com/codefuse-ai/CodeFuse-Query/tree/main)生成函数调用图】
-- 小程序中提权漏洞整理：https://github.com/BESTICSP/Vulnerabilities-Related-to-Mini-Programs-Permissions
+- 电子科技大学团队针对小程序中提权漏洞整理（真实CVE）：https://github.com/BESTICSP/Vulnerabilities-Related-to-Mini-Programs-Permissions
 
 #### 隐私泄露恶意小程序检测
 - ICSE'21-小程序污点分析检测**TaintMini**：https://github.com/OSUSecLab/TaintMini 【已复现成功，主机虚拟机中（该工具只能在Linux系统下使用）】
