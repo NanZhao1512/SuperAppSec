@@ -22,7 +22,7 @@
 ### 其他安全工具（待分类）
 - NDSS'25-小程序中证书泄密大规模分析研究：https://github.com/KeyMagnetProject2025/KeyMagnet【动态分析部分缺少相关文件无法运行】
 - ICSE'23-超级应用中不一致API检测工具**APIDiff**：https://github.com/OSUSecLab/APIDiff
-- CCS'24-跨站请求伪造分析工具**MiniCAT**: https://github.com/kee1ongz/MiniCAT【需要安装codeql静态分析环境】
+- CCS'24-跨站请求伪造分析工具**MiniCAT**: https://github.com/kee1ongz/MiniCAT
 - CCS'20-跨小程序伪造工具**CMRFScanner**：https://github.com/OSUSecLab/CMRFScanner 【已复现成功，主机虚拟机中（只能Linux系统使用）】
 
 ### 其他平台恶意软件检测工具
