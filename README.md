@@ -4,6 +4,29 @@
 - 小程序解包工具：https://github.com/NanZhao1512/-wxappUnpacker-?tab=readme-ov-file
 - 小程序爬虫工具**MiniCrawler**: https://github.com/OSUSecLab/MiniCrawler
 - ICSE'22软件所-小程序缺陷检测工具**WeBug**: https://github.com/tao2years/WeBug
+
+
+### 微信相关模糊测试器
+- **WeChat API Fuzzer**：https://github.com/haseeburrehmanfaheem/WeChat-Api-Fuzzer/tree/main
+  - **目标**：该仓库包含用于分析和动态调用微信小程序API的工具，从而评估小程序API调用的安卓框架API，以便在它们之间建立映射关系。
+  - **概述**：主要代码位于Evalulate-WeChat文件夹中。利用微信的开发工具通过 Chrome 调试协议动态执行小程序 API。具体而言，该代码对微信调试协议进行逆向工程和定制，以在目标平台上调用 API。
+    - Evalulate-WeChat：实现逆向微信调试协议的核心文件，允许通过调试协议中的evaluate函数直接评估JS语言的小程序API
+      - evaluateParameters.js：实现通过微信调试协议动态调用小程序 API 的功能。
+      - evaluateImproved.js、evaluateNew.js：用于实验的评估脚本变体。
+      - invariantApis.csv：通过静态分析微信 APK 提取的 API 列表。
+      - undoc.json：包含未记录 API 的 JSON 文件（通过静态分析提取但未在文档中提到的 API）。
+    - Eval-Output：存储API响应情况，显示哪些API运行成功，哪些产生错误
+      - accessdenied.csv：拒绝访问
+      - catch.csv：捕获错误
+      - df_other.csv
+      - other.csv
+    - Fill-Parameters：包含根据 API 的静态分析填充小程序 API 所需参数的脚本。采用基于模板的方法进行填充。
+  - **使用方法**
+    - 评估参数：Evalulate-WeChat 文件夹中的 evaluateParameters.js 文件是主要的入口点。它将 JavaScript 代码输入到微信调试协议中并记录输出。
+    - 填充参数：Fill-Parameters 文件夹中的脚本获取微信 API 及其所需参数（来自 CSV 文件），并使用默认参数进行填充，采用模板化的方法。
+    - API评估：在动态调用 API 后，结果存储在 Eval-Output 文件夹中。CSV 文件记录成功调用和执行过程中遇到的错误。
+- [**BasicWXAMFuzzer**](https://signal-labs.com/fuzzing-wechats-wxam-parser/)：https://github.com/Signal-Labs/BasicWXAMFuzzer
+  对微信wxam解析器的模糊测试
   
 ### 恶意小程序检测
 
