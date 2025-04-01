@@ -1,0 +1,2 @@
+配置token:
+首先获得页面复制权限,随后在赋复制页面时使用mitmproxy抓取POST包,将POST包中的token信息配置到项目中
