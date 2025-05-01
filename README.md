@@ -1,10 +1,14 @@
 ## 超级应用安全相关研究论文与工具汇总
 
-### 基本工具
-- 小程序解包工具：https://github.com/NanZhao1512/-wxappUnpacker-?tab=readme-ov-file
-- 小程序爬虫工具**MiniCrawler**: https://github.com/OSUSecLab/MiniCrawler
-- ICSE'22软件所-小程序缺陷检测工具**WeBug**: https://github.com/tao2years/WeBug
+### 解包工具
+- 微信小程序解包工具：https://github.com/NanZhao1512/-wxappUnpacker-?tab=readme-ov-file
 
+### 爬虫工具
+- 微信小程序爬虫工具**MiniCrawler**: https://github.com/OSUSecLab/MiniCrawler
+
+### 测试工具
+- ICSE'22软件所-小程序缺陷检测工具**WeBug**: https://github.com/tao2years/WeBug
+- 复旦-MiniBot:轻量级小程序动态测试输入生成框架：https://github.com/realvegechick/MiniBot (使用frida,UIAutomotor)
 
 ### 微信相关模糊测试器
 - **WeChat API Fuzzer**：https://github.com/haseeburrehmanfaheem/WeChat-Api-Fuzzer/tree/main
@@ -50,7 +54,6 @@
 - CCS'20-跨小程序伪造工具**CMRFScanner**：https://github.com/OSUSecLab/CMRFScanner 【已复现成功，主机虚拟机中（只能Linux系统使用）】
 
 ### 其他平台恶意软件检测工具
-
 - ExtAnalysis 浏览器插件安全检测工具： https://github.com/Tuhinshubhra/ExtAnalysis
 - 使用机器学习进行恶意软件分类：https://github.com/trucanh21/android-malware-detection-using-machine-learning
 - AndroPyTool从apk文件中提取静态和动态特征: https://github.com/alexMyG/AndroPyTool
