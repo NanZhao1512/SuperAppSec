@@ -55,6 +55,7 @@
 - CCS'20-跨小程序伪造工具**CMRFScanner**：https://github.com/OSUSecLab/CMRFScanner 【已复现成功，主机虚拟机中（只能Linux系统使用）】
 
 ### 其他平台恶意软件检测工具
+- 安卓中代码动态加载恶意组件间通信行为检测工具DINA：https://github.com/Mohannadcse/DINA
 - ExtAnalysis 浏览器插件安全检测工具： https://github.com/Tuhinshubhra/ExtAnalysis
 - 使用机器学习进行恶意软件分类：https://github.com/trucanh21/android-malware-detection-using-machine-learning
 - AndroPyTool从apk文件中提取静态和动态特征: https://github.com/alexMyG/AndroPyTool
