@@ -1,7 +1,8 @@
 ## 超级应用安全相关研究论文与工具汇总
 
-### 解包工具
+### 基本工具
 - 微信小程序解包工具：https://github.com/NanZhao1512/-wxappUnpacker-?tab=readme-ov-file
+- 微信小程序反编译工具：https://github.com/Cherrison/CrackMinApp
 
 ### 爬虫工具
 - 微信小程序爬虫工具**MiniCrawler**: https://github.com/OSUSecLab/MiniCrawler
