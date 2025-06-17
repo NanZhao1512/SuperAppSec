@@ -44,6 +44,7 @@
 #### 隐私泄露恶意小程序检测
 - TOSEM24-小程序中自动UI检索以及隐私不一致检测**MiniScope**: https://github.com/security-pride/MiniScope【混合分析工具】】
 - ICSE'21-小程序污点分析检测**TaintMini**：https://github.com/OSUSecLab/TaintMini 【已复现成功，主机虚拟机中（该工具只能在Linux系统下使用）】
+- TSE'23西交-小程序隐私不一致检测**MiniDetector**:https://github.com/xjtu-intsoft/MiniDetector 【自定义微信小程序爬虫，静态分析】
 - TIFS'24复旦-小程序违规开发行为检测工具**MiniAppSecurity**：https://github.com/seclab-fudan/MiniAppSecurity 【使用WALA静态分析框架，暂未调通】
 - 复旦-小程序隐私过度收集行为检测**SPOChecker**：https://github.com/ppflower/XPOScope 【需要xposed模块进行动态分析】
 - TDSC'23复旦-小程序中隐私泄露检测**MiniTracker**：https://github.com/flyboss/MiniTracker 【静态污点分析，提供了百度小程序解包工具，和CodeQL以及TaintMini进行对比】】【已复现成功，主机代码盘中（Windows系统中可用）】
