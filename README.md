@@ -50,6 +50,9 @@
 - TDSC'23复旦-小程序中隐私泄露检测**MiniTracker**：https://github.com/flyboss/MiniTracker 【静态污点分析，提供了百度小程序解包工具，和CodeQL以及TaintMini进行对比】】【已复现成功，主机代码盘中（Windows系统中可用）】
 - ASE'23北邮-小程序中APP Secert泄露检测**WeMint**: https://anonymous.4open.science/r/WEMINT 【已复现成功，位于实验ubuntun虚拟机中】
 
+### 小程序漏洞
+-CVE-2024-40433：webview中cookie泄露 https://github.com/yikaikkk/CookieShareInWebView/tree/master
+
 ### 其他安全工具（待分类）
 - NDSS'25-复旦-小程序中证书泄密大规模分析研究：https://github.com/KeyMagnetProject2025/KeyMagnet 【动态分析部分缺少相关文件无法运行】
 - ICSE'23-超级应用中不一致API检测工具**APIDiff**：https://github.com/OSUSecLab/APIDiff
